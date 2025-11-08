@@ -1,0 +1,89 @@
+/* author - deepak tiwari */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df50c3;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 200px;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+  }
+  .gradient {
+     background: linear-gradient(to right, #008baa, #7e42a7, #6600c5, #2a46ff, #0099ff, #008baa);
+     background-size: 200%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: animate-gradient 2.5s linear infinite;
+ }
+ @keyframes animate-gradient {
+     to {
+         background-position: 200%;
+     }
+
+     50% {
+         background-position: 100%;
+     }
+
+     100% {
+         background-position: 0%;
+     }
+ }
+
+ .gradien {
+     background: linear-gradient(to right, #f5f3f3, #25cc16, #c50000, #2a46ff, #0099ff, #008baa);
+     background-size: 200%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: animate-gradient 2.5s linear infinite;
+      font-size: 2rem;
+      
+ }
+ @keyframes animate-gradien {
+     to {
+         background-position: 200%;
+     }
+
+     50% {
+         background-position: 100%;
+     }
+
+     100% {
+         background-position: 0%;
+     }
+ }
